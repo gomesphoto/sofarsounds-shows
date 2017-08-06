@@ -15,12 +15,12 @@ export const fonts = {
   small: '12px',
   medium: '16px',
   large: '20px',
-  h1: '30px',
-  h2: '28px',
-  h3: '24px',
+  h1: '40px',
+  h2: '32px',
+  h3: '28px',
   h4: '20px',
-  h5: '18px',
-  h6: '16px'
+  h5: '16px',
+  h6: '14px'
 };
 
 export const transitions = {
@@ -55,7 +55,7 @@ export const responsive = {
 };
 
 export const globalStyles = `
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
   html, body, #root, #router-root {
     height: 100%;
