@@ -67,7 +67,7 @@ export const globalStyles = `
   body {
     background: rgb(${colors.lightGrey});
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-size: ${fonts.medium};
     color: rgb(${colors.dark});
     position: relative;
