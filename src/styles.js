@@ -2,9 +2,7 @@ export const colors = {
   white: '255, 255, 255',
   black: '0, 0, 0',
   dark: '37, 37, 37',
-  grey: '221, 221, 221',
-  lightGrey: '248, 248, 248',
-  darkGrey: '128, 128, 128',
+  grey: '195, 195, 195',
   blue: '97, 218, 251',
   gold: '246, 203, 71',
   green: '16, 173, 82',
@@ -17,7 +15,7 @@ export const fonts = {
   large: '20px',
   h1: '40px',
   h2: '32px',
-  h3: '28px',
+  h3: '24px',
   h4: '20px',
   h5: '16px',
   h6: '14px'
@@ -65,7 +63,6 @@ export const globalStyles = `
   }
 
   body {
-    background: rgb(${colors.lightGrey});
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: ${fonts.medium};
